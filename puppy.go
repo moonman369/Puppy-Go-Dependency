@@ -1,6 +1,12 @@
 package puppy
 
-import "github.com/moonman369/Dog-Go-Depedency"
+import dog "github.com/moonman369/Dog-Go-Depedency"
+
+var PuppyName string = "Doge"
+
+func SetPuppyName(newName string) {
+	PuppyName = newName
+}
 
 func Bark() string {
 	return "Woof!"
