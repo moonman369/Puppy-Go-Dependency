@@ -7,7 +7,8 @@ func Bark() string {
 func Barks(n int) string {
 	i, res := 0, ""
 	for i < n {
-		res += Bark()
+		res += Bark() + " "
+		i++
 	}
 	return res
 }
