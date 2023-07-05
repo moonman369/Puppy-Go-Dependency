@@ -4,6 +4,7 @@ import dog "github.com/moonman369/Dog-Go-Depedency"
 
 var PuppyName string = "Doge"
 var PuppyAge int8 = 0
+var FavSnack string = "Dawg Food"
 
 func SetPuppyName(newName string) {
 	PuppyName = newName
@@ -11,6 +12,10 @@ func SetPuppyName(newName string) {
 
 func SetPuppyAge(newAge int8) {
 	PuppyAge = newAge
+}
+
+func SetFavSnack(newSnack string) {
+	FavSnack = newSnack
 }
 
 func Bark() string {
